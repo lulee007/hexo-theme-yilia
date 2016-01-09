@@ -39,6 +39,9 @@ baidu_tongji: true
 # 不蒜子统计
 busuanzi: true
 
+# swiftype
+swiftype: false
+
 # 你的头像url
 avatar: http://7xjzst.com1.z0.glb.clouddn.com/blog/pic/avatar/1.pic_hd.jpg
 # 是否开启分享

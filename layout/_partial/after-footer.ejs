@@ -25,5 +25,11 @@
 <% if (theme.mathjax){ %>
 <%- partial('mathjax') %>
 <% } %>
-<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
-</script>
+
+<% if (theme.busuanzi){ %>
+<%- partial('busuanzi') %>
+<% } %>
+
+<% if (theme.swiftype){ %>
+<%- partial('swiftype') %>
+<% } %>

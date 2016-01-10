@@ -3,6 +3,9 @@
   <div id="container">
     <div class="left-col">
     <%- partial('_partial/left-col', null, {cache: !config.relative_link}) %>
+    <% if(theme.github_author) {%>
+    <%- partial('_partial/fork-me-on-github',{github_author: theme.github_author})%>
+    <% } %>
     </div>
     <div class="mid-col">
       <%- partial('_partial/mobile-nav', null, {cache: !config.relative_link}) %>
@@ -11,5 +14,6 @@
     </div>
     <%- partial('_partial/after-footer') %>
   </div>
+
 </body>
 </html>

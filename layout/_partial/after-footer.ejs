@@ -30,6 +30,6 @@
 <%- partial('busuanzi') %>
 <% } %>
 
-<% if (theme.swiftype){ %>
-<%- partial('swiftype') %>
+<% if (theme.swiftype && theme.swiftype.enable){ %>
+<%- partial('swiftype',{key:theme.swiftype.key}) %>
 <% } %>

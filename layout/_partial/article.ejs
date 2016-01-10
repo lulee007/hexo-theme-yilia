@@ -73,11 +73,12 @@
   <%- partial('post/share_addthis') %>
   <% } %>
 </div>
-<% if (!index && theme.duoshuo && post.comments){ %>
+<% if (!index && theme.duoshuo && theme.duoshuo.enable && post.comments){ %>
 <%- partial('post/duoshuo', {
     key: post.slug,
     title: post.title,
-    url: config.url+url_for(post.path)
+    url: config.url+url_for(post.path),
+    shortname: theme.duoshuo.shortname
   }) %>
 <% } %>
 <% if (!index && post.comments && config.disqus_shortname){ %>

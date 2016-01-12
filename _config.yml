@@ -33,7 +33,7 @@ open_in_new: false
 
 # Miscellaneous
 google_analytics: ''
-favicon: /favicon.png
+favicon: /favicon.ico
 # 百度统计
 baidu_tongji: true
 # 不蒜子统计

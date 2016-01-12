@@ -9,13 +9,13 @@ subnav:
   github: "https://github.com/lulee007/"
   weibo: "http://weibo.com/lulee007/"
   rss: "/atom.xml"
-  #zhihu: "#"
-  #douban: "#"
+  zhihu: "#"
+  douban: "#"
   mail: "mailto:lulee007@live.com"
-  #facebook: "#"
-  #google: "#"
-  #twitter: "#"
-  #linkedin: "#"
+  facebook: "#"
+  google: "#"
+  twitter: "#"
+  linkedin: "#"
 
 rss: /atom.xml
 

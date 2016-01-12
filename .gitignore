@@ -1,0 +1,12 @@
+*.iml
+*.ipr
+*.iws
+.idea/
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
+yilia/

@@ -8,14 +8,14 @@ menu:
 subnav:
   github: "https://github.com/lulee007/"
   weibo: "http://weibo.com/lulee007/"
-  rss: "/atom.xml"
-  zhihu: "#"
-  douban: "#"
   mail: "mailto:lulee007@live.com"
-  facebook: "#"
-  google: "#"
-  twitter: "#"
-  linkedin: "#"
+  rss: "/atom.xml"
+  #zhihu: "#"
+  #douban: "#"
+  #facebook: "#"
+  #google: "#"
+  #twitter: "#"
+  #linkedin: "#"
 
 rss: /atom.xml
 

@@ -1,0 +1,13 @@
+<% if (post.photos && post.photos.length){ %>
+<div class="gallery" style="height: 343.984px;">
+  <div class="photoset">
+      <% post.photos.forEach(function(photo, i){ %>
+        <img class="no-fancy" src="<%- url_for(photo) %>" style="opacity: 0;">
+    <% }) %>
+  </div>
+  <div class="control">
+    <div class="prev"></div>
+    <div class="next"></div>
+  </div>
+</div>
+<% } %>

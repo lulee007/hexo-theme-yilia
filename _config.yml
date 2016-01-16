@@ -32,17 +32,17 @@ animate: true
 open_in_new: false
 
 # Miscellaneous
-google_analytics: ''
+google_analytics: 'UA-51346799-2'
 favicon: /favicon.ico
 # 百度统计
-baidu_tongji: true
+baidu_tongji: '4e7442fd2fe4c07867f61d189d85b119'
 # 不蒜子统计
 busuanzi: true
 
 # swiftype
 swiftype: 
   enable: false
-  key: 5gk3QpwucM-zYoTzh9hr
+  key: Wsg1VfrWwgVwjWiNyJEx
 
 # fork me on github  
 github_author: lulee007

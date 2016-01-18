@@ -24,7 +24,6 @@
 
 
 <%- partial('google-analytics') %>
-<%- partial("baidu_tongji") %>
 
 <% if (theme.mathjax){ %>
 <%- partial('mathjax') %>
@@ -34,6 +33,3 @@
 <%- partial('busuanzi') %>
 <% } %>
 
-<% if (theme.swiftype && theme.swiftype.enable){ %>
-<%- partial('swiftype',{key:theme.swiftype.key}) %>
-<% } %>

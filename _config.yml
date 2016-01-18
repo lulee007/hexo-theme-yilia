@@ -35,7 +35,7 @@ open_in_new: false
 google_analytics: 'UA-51346799-2'
 favicon: /favicon.ico
 # 百度统计
-baidu_tongji: '4e7442fd2fe4c07867f61d189d85b119'
+baidu_tongji: '2b32bc2b0cafb69df8a2bc4413392a64'
 # 不蒜子统计
 busuanzi: true
 

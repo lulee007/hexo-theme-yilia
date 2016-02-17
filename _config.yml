@@ -3,6 +3,9 @@ menu:
   主页: /
   所有文章: /archives
   阅读: /books/
+  音乐: /music/
+  MV: /mv/
+  卡通: /cartoon/
 
 # SubNav
 subnav:
@@ -63,4 +66,4 @@ friends:
 # 不开启——
 #aboutme: false
 # 开启——
-aboutme: 我是谁，我从哪里来，我到哪里去？我就是我，是颜色不一样的火火…
+aboutme: 我是谁，我从哪里来，我到哪里去？我就是我，Thinking different …

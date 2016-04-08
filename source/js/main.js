@@ -146,7 +146,6 @@ require([], function () {
         cur = cur[cur.length - 1];
         var id = cur && cur.length ? cur[0].id : "";
         if (id && lastId !== id) {
-            console.log(lastId + '>>' + id);
             lastId = id;
             // Set/remove active class
             menuItems.parent()

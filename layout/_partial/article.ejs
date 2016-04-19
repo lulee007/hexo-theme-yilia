@@ -79,7 +79,7 @@
 </div>
 <% if (!index && theme.duoshuo && theme.duoshuo.enable && post.comments){ %>
 <%- partial('post/duoshuo', {
-    key: post.slug,
+    key: post.slug || post.path,
     title: post.title,
     url: config.url+url_for(post.path),
     shortname: theme.duoshuo.shortname

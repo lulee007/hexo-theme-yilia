@@ -64,8 +64,9 @@
 
   <% if (!index){ %>
     <%- partial('post/nav') %>
-    <%- partial('post/read_count') %>
-
+      <% if (theme.busuanzi){ %>
+      <%- partial('post/read_count') %>
+      <% } %>
     <% } %>
 </article>
 <div class="share">

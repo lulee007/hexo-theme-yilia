@@ -38,6 +38,8 @@ google_analytics: 'UA-51346799-2'
 favicon: /favicon.ico
 # 不蒜子统计
 busuanzi: true
+# cnzz
+cnzz: 1259326040
 
 # google search key
 google_search_key: '015410210664254622126:zzeov19ptnm'
